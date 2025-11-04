@@ -1,11 +1,9 @@
-public class Student
+public class Student : Person
 {
-    private string _name;
     private string _id;
 
-    public Student(string name, string id)
+    public Student(string name, string id) : base(name)
     {
-        _name = name;
         _id = id;
     }
 }
